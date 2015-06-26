@@ -12,7 +12,7 @@ Android Studio都发布了好几个版本了，但是团队的很多项目还是
 在IDEA中打开源码工程，找到platform/lang-impl/src/com/intellij/codeInsight/lookup/impl/actions/ChooseItemAction.java 修改并编译工程。修改ChooseItemAction.java中的两个函数：
 #
 
-
+>
     @Override
     public void execute(@NotNull final Editor editor, final DataContext dataContext) {
       final LookupImpl lookup = (LookupImpl)LookupManager.getActiveLookup(editor);

@@ -43,7 +43,7 @@ Android Studio都发布了好几个版本了，但是团队的很多项目还是
       if (isfinished)
       lookup.finishLookup(finishingChar);
     }
-     
+>
     public static class ChooseWithDot extends ChooseItemAction {
         public ChooseWithDot() {
             super(new Handler(true, Lookup.REPLACE_SELECT_CHAR));

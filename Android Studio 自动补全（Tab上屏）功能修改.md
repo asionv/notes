@@ -20,7 +20,6 @@ Android Studio都发布了好几个版本了，但是团队的很多项目还是
       if (lookup == null) {
         throw new AssertionError("The last lookup disposed at: " + LookupImpl.getLastLookupDisposeTrace() + "\n-----------------------\n");
       }
-      
       if (finishingChar == Lookup.NORMAL_SELECT_CHAR) {
         if (!lookup.isFocused()) {
           FeatureUsageTracker.getInstance().triggerFeatureUsed(CodeCompletionFeatures.EDITING_COMPLETION_CONTROL_ENTER);
